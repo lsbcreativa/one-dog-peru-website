@@ -498,15 +498,16 @@ ul, ol { list-style: none; }
     background: linear-gradient(135deg, rgba(240,185,11,0.15) 0%, rgba(240,185,11,0.08) 100%);
     border: 1.5px solid rgba(240,185,11,0.4);
     border-radius: var(--radius-full);
-    font-size: 12px;
+    font-size: clamp(9px, 2.5vw, 12px);
     font-weight: 700;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--primary);
     margin-bottom: var(--space-8);
     backdrop-filter: blur(12px);
     box-shadow: 0 4px 16px rgba(240,185,11,0.15), inset 0 1px 0 rgba(255,255,255,0.1);
     animation: badgePulse 3s ease-in-out infinite;
+    white-space: nowrap;
 }
 @keyframes badgePulse {
     0%, 100% { box-shadow: 0 4px 16px rgba(240,185,11,0.15), inset 0 1px 0 rgba(255,255,255,0.1); }
