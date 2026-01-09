@@ -217,7 +217,7 @@ ul, ol { list-style: none; }
     font-weight: 600;
     letter-spacing: 0.25em;
     text-transform: uppercase;
-    color: var(--text-tertiary);
+    color: #f7f7f7(--text-tertiary);
     margin-top: 3px;
 }
 @media (max-width: 767px) {
