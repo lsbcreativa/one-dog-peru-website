@@ -1,0 +1,19 @@
+{
+    "name": "ONEDOG Perú - Educación Canina Profesional",
+    "short_name": "ONEDOG",
+    "description": "Escuela de educación canina en Pachacamac e Ica. Miembro IACP.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a1628",
+    "theme_color": "#0a1628",
+    "orientation": "portrait-primary",
+    "lang": "es-PE",
+    "icons": [
+        {
+            "src": "/imagenes/one-dog-logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

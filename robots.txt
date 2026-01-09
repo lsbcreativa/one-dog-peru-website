@@ -1,0 +1,5 @@
+# ONEDOG Perú - robots.txt
+User-agent: *
+Allow: /
+Sitemap: https://onedogperu.com/sitemap.xml
+Host: https://onedogperu.com
